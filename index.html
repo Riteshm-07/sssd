@@ -1,0 +1,242 @@
+<!doctype>
+<html>
+<body>
+<div>
+    
+<img src="https://mlx3lspc9ed5.i.optimole.com/cb:ay7N.34c07/w:auto/h:auto/q:mauto/f:best/https://www.bluehost.com/blog/wp-content/uploads/2012/03/What-Is-a-Website-and-How-Does-It-Work.png">
+<div class="img">
+   
+<div class="google-search">
+    <div class="search-container">
+
+      <input type="text" class="search-input" placeholder="Search Google or type a URL">
+      <button class="search-button">Google Search</button>
+      
+    </div>
+  </div>
+<h>ritesh mahabale</h>
+<h1>Web devloper,digital creater,N*rco mafiya</h1>
+<div class="box">
+   <h1 text-color="red" align="center">RM</h1>
+  </div>
+<div class="home-button">
+    <button><a href="https://instagram.com/ritesh____m?igshid=OGQ5ZDc2ODk2ZA=="> Home </a></button>
+  </div> 
+<div class="gmail">
+    <button><a href="mailto:riteshum21@gmail.com"> Gmail </a></button>
+  </div> 
+
+<div class="rit">
+<p><span>
+here,this web site
+is accept the contract
+of the web devlopement
+</span>
+</p>
+</div>
+
+<h1>
+    <div id="clock"></div></h1>
+</body>
+  
+</div>
+</body>
+
+  <script>
+    function updateClock() {
+      const now = new Date();
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      const seconds = String(now.getSeconds()).padStart(2, '0');
+
+      const timeString = `${hours}:${minutes}:${seconds}`;
+      document.getElementById("clock").textContent = timeString;
+    }
+
+    setInterval(updateClock, 1000); // Update every second
+  </script>
+<style>
+
+#clock {
+      font-size: 2em;
+      align:center;
+    position: absolute;
+  top: 28%;
+  left: 20%;
+  font-color:red;
+  
+  margin: 20px;
+      
+    }
+ 
+.rit{
+position: absolute;
+  top: 28%;
+  left: 9%;
+  transform: translate(-30%, -50%);
+  margin: 20px;
+  padding: 0;
+  display: flex;
+
+   
+}
+rit {
+  padding: 10px 20px;
+  
+  font-color:white; 
+  border: none;
+  cursor: pointer;
+}
+
+.home-button{
+position: absolute;
+  top: 5%;
+  left: 2%;
+  transform: translate(-30%, -50%);
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+button {
+  padding: 10px 20px;
+  
+  color: 
+  border: none;
+  cursor: pointer;
+}
+
+.gmail{
+position: absolute;
+  top: 12%;
+  left: 2%;
+  transform: translate(-30%, -50%);
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+   
+}
+gmail {
+  padding: 10px 20px;
+  
+  background-color:blue; 
+  border: none;
+  cursor: pointer;
+}
+.box{
+position: absolute;
+  top: 5%;
+  left: 10%;
+  transform: translate(-30%, -50%);
+  color: blue;
+  cursor: pointer;
+  text-transform:capitalize;
+  width: 70px;
+  height: 70px;
+  background-color: pink;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50%;
+
+}
+.box:hover{
+  transform: scale(1.2);
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.box {
+  animation: move 2s infinite;
+}
+
+h{
+position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: translate(-30%, -50%);
+  color: rgb(128,17,57);
+  cursor: pointer;
+  text-transform:capitalize;
+  font-size:70px;
+  font-style:arial;
+  font-weight:lighter;
+  
+
+}
+h1{
+position: absolute;
+  top: 23%;
+  left: 40%;
+  transform: translate(-30%, -50%);
+  color: black;
+  cursor: pointer;
+  font-size:20px;
+  font-style:arial;
+  font-weight:lighter;
+  
+
+}
+.google-search {
+  width: 600px;
+  padding: 20px;
+  border-radius: 12px;
+  
+}
+
+.search-container {
+  display: flex;
+position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+  padding: 1px 20px;
+  color: white;
+  border-radius:5%;
+  cursor: pointer;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  }
+img{
+height:100%;
+width:100%;
+
+}
+
+
+
+
+
+
+</style>
+
+</html>
